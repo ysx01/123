@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ThinkPad在线商城 - ThinkWorld官方网站</title>
+    <link rel="stylesheet" href="CSS/shop.css"/>
+    <link rel="stylesheet" href="CSS/common.css"/>
+</head>
+<body>
+<!--头部-->
+<div id="top">
+    <div class="top_header">
+        <div class="top_main">
+            <!--logo-->
+            <div class="top_logo">
+                <b></b>
+            </div>
+            <!--nav-->
+            <div class="nav">
+                <div class="top_nav">
+                    <ul>
+                        <li><a>联想商城</a></li>
+                        <li><a target="_blank" href="first.html">Think官网</a></li>
+                        <li><a href="#">急速达</a></li>
+                        <li><a href="#">私人定制</a></li>
+                        <li><a href="#">依旧换新</a></li>
+                    </ul>
+                </div>
+                <div class="top_search">
+                    <div class="search">
+                        <input type="text"/>
+                        <a href="#" class="icons"></a>
+                    </div>
+                </div>
+            </div>
+            <!--car-->
+            <div class="top_car">
+               <a href="javascript:void(0);" target="_blank"><b class="carts"></b></a>
+            </div>
+            <!--suer-->
+            <div class="top_user">
+                <div class="user">
+                    <span id='welcome'>欢迎来到联想商城！</span>
+                    <a href="#" id="login" onclick="login()">登陆</a>
+                    <span>|</span>
+                    <a target="_blank" href="register.html">注册</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="banner">
+    <div class="banner_box">
+        <!--面包屑-->
+        <div class="mbx">
+            <a href="#" title="首页">首页</a> >
+            <span class="hp">商城首页</span>
+        </div>
+
+        <!--广告-->
+        <div id="container">
+            <!--左边-->
+            <div class="b_lt">
+                <h1>全部商品分类</h1>
+                <ul class="shop_ul">
+                    <li>
+                        <a href="#" class="link">
+                            <i class="icon bjb"></i>
+                            <span class="shop_txt">笔记本</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">
+                            <i class="icon tsj"></i>
+                            <span class="shop_txt">台式机</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">
+                            <i class="icon xsq"></i>
+                            <span class="shop_txt">显示器</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">
+                            <i class="icon pad"></i>
+                            <span class="shop_txt">平 板</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">
+                            <i class="icon dnzb"></i>
+                            <span class="shop_txt">电脑周边</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">
+                            <i class="icon tkl"></i>
+                            <span class="shop_txt">ThinkLife</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="b_center">
+                <div id="focus">
+                    <ul>
+                        <li><a href="#"><img src="img/a.jpg"/></a></li>
+                        <li><a href="#"><img src="img/b.jpg"/></a></li>
+                        <li><a href="#"><img src="img/c.jpg"/></a></li>
+                        <li><a href="#"><img src="img/d.jpg"/></a></li>
+                    </ul>
+                    <!--添加序列号-->
+                </div>
+            </div>
+            <div class="b_rt">
+                <div class="news">
+                    <div class="news_con">
+                        <h1>商城快报</h1>
+
+                        <div class="news_txt">
+                            <div class="news_main">
+                                <ul>
+                                    <li><a href="#">【<b class="mf">免费领笔记本</b>】猜欧洲杯，赢笔记本！</a></li>
+                                    <li><a href="#">【<b class="pc">评测</b>】性价比爆棚！ThinkPad S2体验评测</a></li>
+                                    <li><a href="#">【<b class="jc">教程</b>】Win10 preview也有Windows啦</a></li>
+                                    <li><a href="#">【<b class="sd">晒单</b>】X1Tablet选择及使用心得</a></li>
+                                    <li><a href="#">【<b class="hd">活动</b>】竞猜欧洲杯冠军大猜想</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news_img">
+                        <div class="news-img">
+                            <a href="#"><img src="img/e.jpg"/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--banner底部-->
+    <div class="b_bottom">
+        <div class="b_btm">
+            <ul>
+                <li>
+                    <a href="#"><img src="img/f.jpg"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/g.jpg"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/p.jpg"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/o.jpg"/></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--主体-->
+<div id="main">
+    <div class="main_box_f" id="1F">
+        <h2 style="margin-bottom:0px;">>>热卖笔记本专区</h2>
+
+        <div class="main_con">
+            <!--左边-->
+            <div class="main_lf">
+                <div class="center">
+                    <a href="#"><img src="img/02.jpg" width="298" height="672"/></a>
+                </div>
+            </div>
+            <!--中间-->
+            <div class="m_con">
+                <div class="m_box">
+                    <a href="#"><img src="img/01.jpg"/></a>
+                </div>
+                <!--下部分-->
+                <div class="m_btm">
+                    <div class="m_btm1">
+                        <a href="#"><img src="img/03.jpg"/></a>
+                    </div>
+                    <div class="m_btm2">
+                        <a href="#"><img src="img/04.jpg"/></a>
+                    </div>
+                </div>
+            </div>
+            <!--右边-->
+            <div class="main_rt">
+                <div class="rt1">
+                    <a href="#"><img src="img/05.jpg" width="296" height="323"/></a>
+                </div>
+                <div class="rt2">
+                    <a href="#"><img src="img/06.jpg"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--推荐专区-->
+    <div class="main_box_w" id="2F">
+        <h3>>>推荐专区</h3>
+
+        <div class="mbw_con">
+            <!--左边-->
+            <div class="mbw_lf">
+                <div class="mbw_lf1">
+                    <a href="#"><img src="img/16.jpg"/></a>
+                </div>
+                <div class="mbw_lf2">
+                    <a href="#"><img src="img/15.jpg"/></a>
+                </div>
+            </div>
+            <!--中间-->
+            <div class="mbw_m">
+                <div class="mbw_top">
+                    <a href="#"><img src="img/09.jpg"/></a>
+                </div>
+                <!--下部分-->
+                <div class="mbw_b">
+                    <div class="mbw_b_lf">
+                        <a href="#"><img src="img/17.jpg"/></a>
+                    </div>
+                    <div class="mbw_b_rt">
+                        <a href="#"><img src="img/18.jpg"/></a>
+                    </div>
+                </div>
+            </div>
+            <!--右边-->
+            <div class="mbw_rt">
+                <div class="mbw_rt_box">
+                    <a href="#"><img src="img/08.jpg" width="298" height="498"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--楼层-->
+<div id="flc">
+    <div class="flc-nav">
+        <div class="flc-nav-c">
+            <div class="flc-nav-con">
+                <ul>
+                    <li><a href="#1F" title="热卖笔记本专区">1F</a></li>
+                    <li><a href="#2F" title="推荐专区">2F</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--对面楼层-->
+<div id="flc-rt">
+    <div class="flc-rt-con">
+        <ul>
+            <li>
+                <a href="javascript:void(0);">
+                    <img src="img/userlogo.jpg">
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0);" class="shopcart" title="购物车"></a>
+            </li>
+            <li>
+                <a href="javascript:void(0);" class="shopsc" title="我的收藏"></a>
+            </li>
+            <li>
+                <a href="javascript:void(0);" class="shoptl" title="相关消息"></a>
+            </li>
+        </ul>
+    </div>
+    <a href="javascript:" class="shoptop" title="回到顶部">
+        <i></i>
+    </a>
+</div>
+
+
+<!--广告横幅1-->
+<div id="berf">
+    <div class="berf_box">
+        <a href="#"><img src="img/10.jpg"></a>
+    </div>
+</div>
+<!--广告横幅2-->
+<div id="berw">
+    <div class="berw_box">
+        <a href="#"><img src="img/11.jpg"></a>
+    </div>
+</div>
+<!--底部-->
+<div id="foot">
+    <div class="foot_box">
+        <div class="contact">
+            <div class="contact_box">
+                <p class="rx">4008 989 006</p>
+
+                <p class="gf"><span>——</span>官方客服热线<i>——</i></p>
+
+                <p class="day"> 周一至周日 8：30-17：30</p>
+            </div>
+        </div>
+        <ul>
+            <li>
+                <i class="shop"></i>
+                <b>购物指南</b></li>
+            <li><a href="#">购物流程</a></li>
+            <li><a href="#">会员注册</a></li>
+        </ul>
+
+        <ul>
+            <li>
+                <i class="send"></i>
+                <b>配送方式</b></li>
+            <li><a href="#">签收原则</a></li>
+            <li><a href="#">配送常见问题</a></li>
+            <li><a href="#">配送物流</a></li>
+            <li><a href="#">在线查询</a></li>
+        </ul>
+
+        <ul>
+            <li><i class="order"></i>
+                <b>支付及订单</b></li>
+            <li><a href="#">支付宝支付</a></li>
+            <li><a href="#">货到付款</a></li>
+            <li><a href="#">发票制度</a></li>
+            <li><a href="#">支付帮助</a></li>
+        </ul>
+
+        <ul>
+            <li><i class="services"></i>
+                <b>售后服务</b></li>
+            <li><a href="#">笔记本售后服务</a></li>
+            <li><a href="#">官方选件售后服务</a></li>
+        </ul>
+
+        <ul>
+            <li><i class="other"></i>
+                <b>其他信息</b></li>
+            <li><a href="#">3C体验店</a></li>
+            <li><a href="#">线下体验店</a></li>
+            <li><a href="#">黑点说明</a></li>
+            <li><a href="#">产品和性能说明</a></li>
+        </ul>
+    </div>
+</div>
+<!--wb-->
+<div class="ico">
+    <div class="ico_box">
+        <ul>
+            <li><a href="#"><i class="db"></i></a></li>
+				<li><a href="#"><i class="wb"></i></a></li>
+				<li><a href="#"><i class="rr"></i></a></li>
+				<li><a href="#"><i class="txwb"></i></a></li>
+        </ul>
+    </div>
+</div>
+<!--foot-->
+<div id="footer">
+    <div class="links">
+        <a href="#" class="cls">使用条款</a>|
+        <a href="#">关于会员</a>|
+        <a href="#">服务与支持</a>|
+        <a href="#" class="cls">官网意见反馈</a>|
+        <a href="#">隐私保护</a>|
+        <a href="#">联想商城</a>|
+        <a href="#">神奇工场</a>|
+        <a href="#">合作伙伴认证</a>|
+        <a href="#">联系我们</a>|
+        <a href="#">黑匠专属</a>|
+        <a href="#">经销商注册</a>
+    </div>
+    <!-- 2017-1-19 修改-->
+    <div class="copyright">
+        <div class="copyright_box">
+            <p>版权所有:1998-2016 联想集团 | <span class="fl">法律公告</span> | <span class="icp">京ICP证140534号</span> | 京公网安备110108007970 | <span class="yz">营业执照:110000410127232</span></p>
+            <p>超极本,赛扬、Celeron Inside、CoreInside、英特尔、英特尔标识、英特尔凌动、Intel Atom Inside、英特尔酷睿、Intel Inside, Intel Inside 标识、英特尔欢跃、英特尔博锐、安腾、Itanium Inside、奔腾、Pentium Inside、vPro
+                Inside、至强、至强 Phi 和 Xeon Inside均是英特尔公司在美国或其他国家的商标。ThinkPad是联想公司的注册商标。</p>
+        </div>
+    </div>
+</div>
+<!--login-->
+<!--login-->
+<div class="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <h4>用户登录</h4>
+            <span class="close" id="clse" onclick="click()">&times;</span>
+
+            <p class="alert">
+                请在此处输入您的注册信息。
+            </p>
+
+            <form id="login-form">
+                <input type="text" placeholder="请输入登录用户名" name="uname" value="tom">
+                <input type="password" placeholder="请输入登录密码" name="upwd" value="123456">
+                <input type="button" value="登 录" id="bt-login">
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="JS/jquery-1.11.3.js"></script>
+<script src="JS/login.js"></script>
+<script src="JS/shop.js"></script>
+<script>
+    $("#login").click(function () {
+        //TODO 显示用户登录框
+        $(".modal").css('display', 'block');
+        //TODO 阻止<a>标签的默认行为
+        return false;
+    });
+</script>
+</body>
+
+
+</html>

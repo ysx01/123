@@ -1,0 +1,296 @@
+body{background: #aaa;font-family: "微软雅黑";font-size: 10px;}
+/**************************************************************/
+#header{height:75px;border:1px solid transparent;}
+
+#header>.header_box{width:1211px;margin:0 auto;border:1px solid transparent;height:75px;line-height:75px;}
+.header_box>.log{
+	width: 111px;
+    height: 50px;
+    float: left;
+    margin-top: 24px; 
+}
+.header_box>.log{
+	background-image: url('../img/logo.png'); 
+	background-position: -185px 0;
+}
+.header_box>.lf{
+	float: left;
+    height: 34px;
+    line-height: 34px;
+    font-size: 30px;
+    color: #000;
+    border-left: solid 1px #fff;
+    margin-left: 25px;
+    padding-left: 25px;
+    margin-top: 24px;
+}
+/*****************************************************************/
+.tab{
+  position: absolute;
+    top: 189px;
+    right: 185px;
+    width: 1027px;}
+
+
+.close {
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000000;
+  text-shadow: 0 1px 0 #ffffff;
+  opacity: 1.2;
+  position: relative;
+  top: 5px;
+  cursor: pointer;
+  left: 802px;
+}
+/******************************************************************/
+
+.col-md-2 {
+      width: 10%;
+  }
+  .col-md-5 {
+      width: 35%;
+      margin-right:15px;
+  }
+  .col-md-2,.col-md-5 {
+      float: left;
+      position: relative;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+  }
+  .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 3;
+  }
+  .header {
+      color: white;
+  }
+  .reg-container {
+      width: 1170px;
+  }
+  .form {
+    border: 1px solid #777777;
+    border-radius: 13px;
+    padding-top: 44px;
+    margin-right: 19%;
+    margin-left: 24%;
+    background-color: rgba(255,255,255,0.7);
+    height: 240px;
+  }
+  .form-horizontal .form-group {
+      margin-left:-15px;
+      margin-right:-15px;
+  }
+  .form-group {
+      margin-bottom: 15px;
+  }
+  .control-error {
+      padding-top: 7px;
+      padding-bottom: 7px;
+      margin-bottom: 0;
+      text-align: left;
+      background-color: #d9534f;
+      border-radius: 4px;
+      color: #ffffff;
+  }
+  .control-success {
+      padding-top: 7px;
+      padding-bottom: 7px;
+      margin-bottom: 0;
+      text-align: left;
+      background-color: #5cb85c;
+      border-radius: 4px;
+      color: #ffffff;
+  }
+  .control-default {
+      padding-top: 7px;
+      padding-bottom: 7px;
+      margin-bottom: 0;
+      text-align: left;
+      background-color: #777;
+      border-radius: 4px;
+      color: #ffffff;
+  }
+  .show {
+      display: block;
+  }
+  .hide {
+      display: none;
+  }
+  .video-frame {
+      position: relative;
+      width: 100%;
+      height: auto;
+      margin-top: 40px;
+      margin-bottom: 20px;
+  }
+  video {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+  }
+  .form-control {
+      display: block;
+      width: 100%;
+      height: 24px;
+      padding: 6px 12px;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #555;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+      transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  }
+  .form-horizontal .control-label {
+      padding-top: 7px;
+      margin-bottom: 0;
+      text-align: right;
+      font-weight:bold;
+  }
+  input, button, select, textarea {
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit;
+  }
+  input {
+      line-height: normal;
+  }
+/*********************/
+#put{margin-left: 92px;}
+
+.dfp{margin-top:13px;}
+/**************/
+  .control-default {
+      padding-top: 7px;
+      padding-bottom: 7px;
+      margin-bottom: 0;
+      text-align: left;
+      background-color: #777;
+      border-radius: 4px;
+      color: #ffffff;
+  }
+  input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="button"].btn-block {
+     width: 237px;
+  }
+  button, html input[type="button"], input[type="reset"], input[type="submit"] {
+      cursor: pointer;
+  }
+  .btn-block {
+      display: block;
+      width: 100%;
+  }
+  .btn-success {
+      color: #fff;
+      background-color: #5cb85c;
+      border-color: #4cae4c;
+  }
+  .btn {
+      display: inline-block;
+      padding: 6px 12px;
+      margin-bottom: 0;
+      font-size: 14px;
+      font-weight: normal;
+      line-height: 1.42857143;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      touch-action: manipulation;
+      cursor: pointer;
+      user-select: none;
+      background-image: none;
+      border: 1px solid transparent;
+      border-radius: 4px;
+  }
+
+
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-header:before, .modal-header:after, .modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " ";
+}
+.clearfix:after, .dl-horizontal dd:after, .container:after, .container-fluid:after, .row:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical > .btn-group:after, .nav:after, .navbar:after, .navbar-header:after, .navbar-collapse:after, .pager:after, .panel-body:after, .modal-header:after, .modal-footer:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-header:before, .modal-header:after, .modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " ";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*bottom****************************************************************/
+.footer {
+    width: 990px;
+    margin: 0 auto;
+}
+
+#footer-box{
+    height: 129px;
+}
+#footer_box>.links>a{text-decoration: none;}
+.links{
+  margin-top:20px;
+}
+.links>a{
+  margin: 0 3px;
+  font-size:14px;
+  color:#000;
+}
+
+.copyright{width:1211px;margin: 0 auto;}
+.copyright_box{
+  margin-top:20px;
+  line-height: 20px;
+  padding-left:281px;
+}
+
+/**注册**************************************************************/

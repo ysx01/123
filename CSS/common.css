@@ -1,0 +1,36 @@
+/*公共样式*/
+body{
+    /*margin,padding,字体：大小，字体，颜色*/
+    margin:0;
+    padding:0;
+	font-family:arial,"微软雅黑",sans-serif;
+    color:#898989;
+}
+
+ul,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+input{border:none;outline:none;}
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+a{
+    color:#898989;
+    text-decoration:none;
+}
+a:hover{
+    color:#aaa;
+    text-decoration:underline;
+}
+/*测试**/
+/*#top,.top_header,.top_main,.nav,#banner,#main,#foot_box,#footer,#foot{
+    border:1px solid black;
+}*/
+/*整体布局*/
+.top_header,#berf,#berw,#main,#foot_box,#footer{
+    /*宽度，水平居中对齐*/
+    width:1211px;
+    margin:0 auto;
+}
