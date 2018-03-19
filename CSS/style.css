@@ -71,7 +71,7 @@ ul, ol {
 /* Navigation */
 .navbar-custom {
 	margin-bottom: 0;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	background-color: #000;
 }
 .navbar-custom .navbar-brand {
@@ -733,3 +733,5 @@ nav#footer p {
 -ms-transition:-ms-transform 2s ease-out;}
 .d:hover{-webkit-transform:rotateZ(360deg);-moz-transform:rotateZ(360deg);
 -o-transform:rotateZ(360deg);-ms-transform:rotateZ(360deg);transform:rotateZ(360deg);}
+
+
