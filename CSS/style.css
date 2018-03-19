@@ -263,7 +263,7 @@ ul, ol {
 }
 /* About Section */
 #about {
-	padding: 80px 0;
+	padding: 0 0;
 	color: #444;
 	background: #f4d03f; /* Old browsers */
 	background: -moz-linear-gradient(top, #f4d03f 70%, #c3a632 100%); /* FF3.6+ */
