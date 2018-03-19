@@ -28,6 +28,7 @@ h5 {
 }
 p {
 	font-family: microsoft yahei, sans-serif;
+	text-align: center;
 }
 p.intro {
 	font-size: 16px;
@@ -42,7 +43,7 @@ a:hover, a:focus {
 	text-decoration: none;
 	color: #F4D03F;
 }
-ul, ol {
+ul,ol{
 	list-style: none;
 }
 .clearfix:after {
@@ -130,7 +131,7 @@ ul, ol {
 }
 .navbar-custom.top-nav-collapse {
 	padding: 0;
-	background: #000;
+	background: #555;
 }
 }
 .copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
@@ -270,7 +271,7 @@ ul, ol {
 	background: -webkit-linear-gradient(top, #f4d03f 70%, #c3a632 100%); /* Chrome10+,Safari5.1+ */
 	background: -o-linear-gradient(top, #f4d03f 70%, #c3a632 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top, #f4d03f 70%, #c3a632 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #f4d03f 70%, #c3a632 100%); /* W3C */
+	background: linear-gradient(to bottom, #B4DDF9 70%, #EACF9F 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4d03f', endColorstr='#c3a632', GradientType=0 ); /* IE6-9 */
 }
 #about .about-text {
@@ -610,7 +611,7 @@ ol.type li a:hover {
 	background: -webkit-linear-gradient(top, #ffffff 0%, #cccccc 100%); /* Chrome10+,Safari5.1+ */
 	background: -o-linear-gradient(top, #ffffff 0%, #cccccc 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top, #ffffff 0%, #cccccc 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #ffffff 0%, #cccccc 100%); /* W3C */
+	background: linear-gradient(to bottom, #EACF9F 0%, #cccccc 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccccc', GradientType=0 ); /* IE6-9 */
 }
 #contact h3 {
@@ -667,7 +668,7 @@ label {
 	margin-top: 15px;
 }
 #contact .btn:hover, #contact .btn:focus {
-	background: #F4D03F;
+	background: #E8D0A3;
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -681,7 +682,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Footer */
 nav#footer {
-	background: #222222;
+	background: #555555;
 	color: #ddd;
 	padding: 30px 0 25px 0;
 }
@@ -709,3 +710,26 @@ nav#footer p {
 }
 
 
+.a{
+-moz-transition:-moz-transform 2s ease-out;-o-transition:-o-transform 2s ease-out;
+-ms-transition:-ms-transform 2s ease-out;}
+.a:hover{-webkit-transform:rotateZ(360deg);-moz-transform:rotateZ(360deg);
+-o-transform:rotateZ(360deg);-ms-transform:rotateZ(360deg);transform:rotateZ(360deg);}
+
+.b{
+-moz-transition:-moz-transform 2s ease-out;-o-transition:-o-transform 2s ease-out;
+-ms-transition:-ms-transform 2s ease-out;}
+.b:hover{-webkit-transform:rotateZ(360deg);-moz-transform:rotateZ(360deg);
+-o-transform:rotateZ(360deg);-ms-transform:rotateZ(360deg);transform:rotateZ(360deg);}
+
+.c{
+-moz-transition:-moz-transform 2s ease-out;-o-transition:-o-transform 2s ease-out;
+-ms-transition:-ms-transform 2s ease-out;}
+.c:hover{-webkit-transform:rotateZ(360deg);-moz-transform:rotateZ(360deg);
+-o-transform:rotateZ(360deg);-ms-transform:rotateZ(360deg);transform:rotateZ(360deg);}
+
+.d{
+-moz-transition:-moz-transform 2s ease-out;-o-transition:-o-transform 2s ease-out;
+-ms-transition:-ms-transform 2s ease-out;}
+.d:hover{-webkit-transform:rotateZ(360deg);-moz-transform:rotateZ(360deg);
+-o-transform:rotateZ(360deg);-ms-transform:rotateZ(360deg);transform:rotateZ(360deg);}
